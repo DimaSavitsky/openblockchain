@@ -6,3 +6,5 @@ applications:
   name: openblockchain-test
   host: openblockchain-test
   disk_quota: 1024M
+  services:
+   - marbles-blockchain
