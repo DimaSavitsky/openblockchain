@@ -10,4 +10,7 @@ gem 'turbolinks'
 
 gem 'openblockchain-ruby'
 
-gem 'web-console', '~> 2.0'
+group :development do
+  gem 'web-console', '~> 2.0'
+end
+
