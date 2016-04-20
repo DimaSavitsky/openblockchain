@@ -1,0 +1,11 @@
+development: &hardcoded
+  blockchain:
+    api:
+      host: "c250d5bc-d0c8-4992-9e8a-316c5546510b_vp1-api.blockchain.ibm.com"
+      port: 80
+    enroll:
+      id: "user_type1_b92f77b5e9"
+      secret: "ef7a16bb01"
+
+production:
+  *hardcoded
